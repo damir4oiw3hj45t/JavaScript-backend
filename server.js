@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const API_KEY = "YOUR_CLAUDE_API_KEY_HERE";
+const API_KEY = "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";
 
 // simple memory
 let conversation = [];
